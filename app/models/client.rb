@@ -1,5 +1,5 @@
-class CustomerStore < ApplicationRecord
-  has_many :clients
+class Client < ApplicationRecord
+  belongs_to :customer_store
   has_many :addresses, as: :addressable
   has_many :phones, as: :phonable
 

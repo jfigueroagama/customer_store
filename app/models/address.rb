@@ -1,3 +1,3 @@
 class Address < ApplicationRecord
-  belongs_to :customer_store
+  belongs_to :addressable, polymorphic: true
 end

@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+#
+# Let's seed some records
+#
+customers = CustomerStore.create([{name: "Sport's Store"}, {name: "Men's Store"}, {name: "Women's Store"}])
